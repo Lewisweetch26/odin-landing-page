@@ -14,3 +14,8 @@ font-weight: bold;}
 .hero {
     background-color: #1F2937;
 }
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
