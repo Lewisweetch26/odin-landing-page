@@ -51,7 +51,8 @@ button {
     border-radius: 10px;
     padding: 7px 30px;
     font-weight: bold;
-    border-style: none;}
+    border-style: none;
+color: white;}
 
 .information {
     text-align: center;
@@ -94,7 +95,7 @@ color: darkgray;}
 .container2 {
     display: flex;
     flex-direction: column;
-    padding: 120px;
+    padding: 100px;
     max-width: 800px;
 }
 
@@ -108,3 +109,29 @@ color: darkgray;}
     font-weight: bold;
     font-size: 18px;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    margin: 80px;
+    padding: 50px 160px;
+    border-radius: 25px;
+    background-color: #3882f6;
+    gap: 100px;
+}
+
+.bold {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;}
+.signup {
+    color:#e5e7eb;
+}
+a > button {
+    border: 2px solid white;
+    font-size: large;}
