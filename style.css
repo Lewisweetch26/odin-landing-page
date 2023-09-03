@@ -1,13 +1,22 @@
-* {border: 1px solid red;}
+* {border: 1px solid red;
+
+font-family: Arial, Helvetica, sans-serif;}
 
 .hero {
     background-color: #1F2937;
+    flex: 1;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    align-items:center;}
+    align-items:center;
+    padding: 20px;}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+}
 
 .logo {
 font-size: 24px;
@@ -20,6 +29,9 @@ font-weight: bold;}
 
 img {
     height: 180px;
-    width: 290px;
+    width: 290px;}
 
+.left-side {
+    display: flex;
+    flex-direction: column;
 }
